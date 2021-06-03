@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(163, 161, 161);
+}
+.grid div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    
+}
+.grid div:hover{
+    cursor: pointer;
+}
+.bomb{
+    text-align: center;
+    line-height: 2;
+    background-color: orange;
+}
+.checked{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-weight: 300;
+    background-color: rgb(241, 212, 184);
+}
+.one{
+    color:green;
+}
+.two{
+    color:blue;
+}
+.three{
+    color:rgb(184, 58, 177)
+}
+.four{
+    color:rgb(167, 0, 0)
+}
+.flag{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5;
+}
